@@ -1,3 +1,4 @@
+import "./styledcomponents/Navbar.css"
 function Navbar() {
     return (
       <nav className='nav'>

@@ -1,0 +1,6 @@
+.footer{
+    grid-area: f;
+    height: 60px;
+    width: 100%;
+    background-color: cadetblue;
+}

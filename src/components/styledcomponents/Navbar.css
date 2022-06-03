@@ -1,0 +1,7 @@
+.nav div{
+    grid-area: n;
+    background-color: cadetblue;
+    padding-left: 20px;
+    padding: 10px 0px 10px 20px;
+    text-decoration: none;
+}
