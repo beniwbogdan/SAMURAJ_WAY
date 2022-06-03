@@ -1,15 +1,21 @@
-import "./styledcomponents/Navbar.css"
-function Navbar() {
-    return (
-      <nav className='nav'>
-      <div><a href="#s">Profile</a></div>
-      <div><a href="#s">Messages</a></div>
-      <div><a href="#s">News</a></div>
-      <div><a href="#s">Music</a></div>
-      <div><a href="#s">Settings</a></div>
-      
-    </nav>
-    );
-  }
+import "./styledcomponents/Navbar.module.css"
 
-  export default Navbar;
+let n={
+    'nav':"Navbar_nav__hROmP",
+    'item':"Navbar_item__fnLqL"
+}
+
+function Navbar() {
+  return (
+    <nav className={n.nav}>
+      <div className={n.item}><a href="#s">Profile</a></div>
+      <div className={n.item}><a href="#s">Messages</a></div>
+      <div className={n.item}><a href="#s">News</a></div>
+      <div className={n.item}><a href="#s">Music</a></div>
+      <div className={n.item}><a href="#s">Settings</a></div>
+
+    </nav>
+  );
+}
+
+export default Navbar;

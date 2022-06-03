@@ -1,0 +1,27 @@
+.header{
+    grid-area: h;
+    background-color: cadetblue;
+    text-align: center;
+}
+.header img{
+    width: 50px;
+}
+.header img:hover{
+    filter: invert(100%);
+    width: 50px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

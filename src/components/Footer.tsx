@@ -1,10 +1,13 @@
-import "./styledcomponents/Footer.css"
+import "./styledcomponents/Footer.module.css"
+let f ={
+    'footer':"Footer_footer__vDqzz"
+}
 function Footer() {
     return (
-      <div className="footer">
-      
-      </div>
+        <div className={f.footer}>
+            <div></div>
+        </div>
     );
-  }
+}
 
-  export default Footer;
+export default Footer;
